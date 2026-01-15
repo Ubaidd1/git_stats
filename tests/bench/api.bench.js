@@ -56,7 +56,7 @@ const mock = new MockAdapter(axios);
 const faker = (query, data) => {
   const req = {
     query: {
-      username: "obaidullah72",
+      username: "Ubaidd1",
       ...query,
     },
   };

@@ -22,7 +22,7 @@ permissions:
 
 jobs:
   closeEmptyIssuesAndTemplates:
-    if: github.repository == 'obaidullah72/git_stats'
+    if: github.repository == 'Ubaidd1/git_stats'
     name: Close empty issues
     runs-on: ubuntu-latest
     steps:

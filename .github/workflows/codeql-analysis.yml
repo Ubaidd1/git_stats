@@ -24,7 +24,7 @@ permissions:
 
 jobs:
   CodeQL-Build:
-    if: github.repository == 'obaidullah72/git_stats'
+    if: github.repository == 'Ubaidd1/git_stats'
 
     # CodeQL runs on ubuntu-latest, windows-latest, and macos-latest
     runs-on: ubuntu-latest
