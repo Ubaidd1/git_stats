@@ -17,7 +17,7 @@ With inbuilt themes, you can customize the look of the card without doing any ma
 Use \`?theme=THEME_NAME\` parameter like so:
 
 \`\`\`md
-![Obaidullah's GitHub stats](https://github-readme-stats.vercel.app/api?username=obaidullah72&theme=dark&show_icons=true)
+![Obaidullah's GitHub stats](https://git_stats.vercel.app/api?username=obaidullah72&theme=dark&show_icons=true)
 \`\`\`
 
 ## Stats
@@ -42,10 +42,10 @@ ${REPO_CARD_LINKS_FLAG}
 `;
 
 const createRepoMdLink = (theme) => {
-  return `\n[${theme}_repo]: https://github-readme-stats.vercel.app/api/pin/?username=obaidullah72&repo=github-readme-stats&cache_seconds=86400&theme=${theme}`;
+  return `\n[${theme}_repo]: https://git_stats.vercel.app/api/pin/?username=obaidullah72&repo=git_stats&cache_seconds=86400&theme=${theme}`;
 };
 const createStatMdLink = (theme) => {
-  return `\n[${theme}]: https://github-readme-stats.vercel.app/api?username=obaidullah72&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=${theme}`;
+  return `\n[${theme}]: https://git_stats.vercel.app/api?username=obaidullah72&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=${theme}`;
 };
 
 const generateLinks = (fn) => {
